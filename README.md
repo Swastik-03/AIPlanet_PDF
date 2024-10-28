@@ -50,7 +50,7 @@ This project is a PDF Question Answering System that allows users to upload PDF 
     uvicorn app.main:app --reload
 The backend server will be running at http://127.0.0.1:8000.
 
-### Frontend Setup
+### Frontend Setup -- https://github.com/Swastik-03/AIPlanet_PDF_Frontend
 
 1. **Navigate to the Frontend Directory:**
    ```bash
