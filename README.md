@@ -1,7 +1,7 @@
 # PDF Question Answering System
 
 This project is a PDF Question Answering System that allows users to upload PDF files and ask questions about their content. The system is built using FastAPI for the backend and React for the frontend.
-
+#Note :- PDF should be less than 2000 character
 ## Table of Contents
 * Features
 * Technologies Used
