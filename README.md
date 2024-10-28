@@ -66,7 +66,7 @@ The backend server will be running at http://127.0.0.1:8000.
 4. **Set Environment Variables:**
     Create a .env file in the root of the frontend directory and add the following variable:
    ```bash
-   REACT_APP_API_URL=http://localhost:8000  # Backend API URL
+   appurl=http://localhost:8000  # Backend API URL
 5. **Run the Frontend Development Server:**
    ```bash
    npm start
