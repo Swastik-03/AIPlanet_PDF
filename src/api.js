@@ -6,7 +6,8 @@ export const uploadPDF = async (file) => {
   // Create a new FormData object to hold the file data
   const formData = new FormData();
   formData.append("file", file); // Append the file to the FormData object
-
+  console.log(API_URL);
+  console.log(FormData);
   try {
     // Send a POST request to upload the PDF
     const response = await fetch(`${API_URL}/upload_pdf/`, {
