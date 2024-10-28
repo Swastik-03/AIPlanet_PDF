@@ -1,6 +1,6 @@
 // src/api.js
 
-const API_URL = process.env.appurl; //Backend Api url from environment variable
+const API_URL = process.env.REACT_APP_API_URL; //Backend Api url from environment variable
 
 export const uploadPDF = async (file) => {
   // Create a new FormData object to hold the file data
