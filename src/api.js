@@ -10,7 +10,7 @@ export const uploadPDF = async (file) => {
   console.log(FormData);
   try {
     // Send a POST request to upload the PDF
-    const response = await fetch(`${API_URL}/upload_pdf/`, {
+    const response = await fetch(`${API_URL}/upload_pdf`, {
       method: "POST",
       body: formData,
     });
